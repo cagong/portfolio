@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'walkway_semiboldregular';
+    src: url('fonts/walkway_semibold-webfont.eot');
+    src: url('fonts/walkway_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/walkway_semibold-webfont.woff2') format('woff2'),
+         url('fonts/walkway_semibold-webfont.woff') format('woff'),
+         url('fonts/walkway_semibold-webfont.ttf') format('truetype'),
+         url('fonts/walkway_semibold-webfont.svg#walkway_semiboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+	background-color: #3c498c;
+	background-image: url("images/background.png");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family: 'walkway_semiboldregular';
+    letter-spacing: 0.1em;
+    color: #686868;
+}
+
+main{
+	width: 900px;
+	position: relative;
+	margin:auto;
+	padding-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.50);
+    padding-top: 20px;
+}
+
+nav ul {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+nav ul li {
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    margin: 20px;
+}
+
+section#gallery ul li {
+    list-style: none;
+    display: inline;
+}
+
+section#gallery ul li img {
+    opacity: 0.5;
+    margin: 5px;
+}
+    
+section#gallery ul {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+section#about section#aboutright ul li{
+    list-style: none;
+    font-size: 18px;
+}
+
+section#about section#aboutright ul#icons {
+    text-align: center;
+}
+
+section#about section#aboutright ul#icons li {
+    display: inline;
+}
+
+section#about section#aboutright ul {
+    padding: 10px;
+}
+
+section#about section#aboutright h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+section#about section#aboutright {
+    float: right;
+    width: 570px;
+}
+
+section#about header {
+    float: left;
+    margin: 50px;
+}
+
+section#contact form input {
+    font-family: 'walkway_semiboldregular';
+    letter-spacing: 0.1em;
+    color: #686868;
+    padding: 3px;
+    margin: 3px;
+}
+
+section#contact form textarea {
+    font-family: 'walkway_semiboldregular';
+    letter-spacing: 0.1em;
+    color: #686868;
+}
+
+section#contact form {
+    float: right;
+    margin: 20px;
+    margin-right: 100px;
+}
+
+section#contact section#contactleft {
+    clear: both;
+    float: left;
+    margin-left: 200px;
+}
+
+section#contact section#contactleft h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+section#contact section#contactleft h3 {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+section#contact h4 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 5px;
+}
+
+footer section.left{
+    float: left;
+    text-align: left;
+    font-size: 10px;
+}
+
+footer section.right{
+    float: right;
+    text-align: right;
+    font-size: 10px;
+}

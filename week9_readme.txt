@@ -1,0 +1,1 @@
+This week I finished coding the html page and styled it all with css. I also added all the pictures to the page.
